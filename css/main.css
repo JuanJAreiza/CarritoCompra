@@ -100,7 +100,7 @@ header{
 
 .carro-cantidad{
     border: 1px solid rgb(210, 210, 226);
-    width: 2.4rem;
+    width: 4rem;
     font-size: 1.4rem;
 }
 
@@ -138,6 +138,10 @@ header{
     font-size: 1.2rem;
     font-weight: bold;
     cursor: pointer;
+}
+
+a{
+    color: white;
 }
 
 .btn-wpp:hover{
