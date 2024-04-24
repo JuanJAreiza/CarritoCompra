@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 *{
-    font-family: "Nunito", sans-serif;
     margin:0; padding:0;
     box-sizing: border-box; border: none;
     transition: all .2s linear;
@@ -12,8 +12,33 @@ html{
     overflow-x: hidden;
 }
 
+header{
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15%;
+    height: 7rem;
+    padding: 2rem 6rem;
+    top:0;
+    position: fixed;
+    background: white;
+    width: 100%;
+}
+
+.logo{
+    font-family: "Righteous", sans-serif;
+    font-size: 2rem;
+}
+
+.carrito{
+    font-size: 1.5rem;
+}
+
 body{
-background: #f0eee9;
+    font-family: "Nunito", sans-serif;
+    padding-top: 7rem;
+    background: #f0eee9;
 }
 
 .conten{
@@ -34,13 +59,15 @@ background: #f0eee9;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 2rem;
+    width: 100%;
 }
 
 .conten .conten-productos .productos{
     text-align: center;
+    border-radius: 15px;
     padding: 3rem 2rem;
     background: #fff;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
     outline: .1rem solid #ccc;
     outline-offset: -1.5rem;
     cursor: pointer;
@@ -49,6 +76,7 @@ background: #f0eee9;
 .conten .conten-productos .productos:hover{
     outline: .1rem solid #222;
     outline-offset: 0;
+    background: #fafffe;
 }
 
 .conten .conten-productos .productos img{
@@ -70,6 +98,22 @@ background: #f0eee9;
 }
 
 .conten .conten-productos .productos .precio{
+    margin-top: .9rem;
     font-size: 2.3rem;
     color:rgb(9, 59, 82);
+}
+
+.conten .conten-productos .productos .boton-item{
+    display: block;
+    margin: 10px auto;
+    width: 10rem; height: 3rem;
+    border: none;
+    background: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.conten .conten-productos .productos .boton-item:hover{
+    transform: scale(1.1);
 }
