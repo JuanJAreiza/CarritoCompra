@@ -4,4 +4,72 @@
     font-family: "Nunito", sans-serif;
     margin:0; padding:0;
     box-sizing: border-box; border: none;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+background: #f0eee9;
+}
+
+.conten{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.conten .titulo{
+    font-size: 3.5rem;
+    color: #444;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.conten .conten-productos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.conten .conten-productos .productos{
+    text-align: center;
+    padding: 3rem 2rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    outline: .1rem solid #ccc;
+    outline-offset: -1.5rem;
+    cursor: pointer;
+}
+
+.conten .conten-productos .productos:hover{
+    outline: .1rem solid #222;
+    outline-offset: 0;
+}
+
+.conten .conten-productos .productos img{
+    height: 15rem;
+}
+
+.conten .conten-productos .productos:hover img{
+    transform: scale(1.2);
+}
+
+.conten .conten-productos .productos h3{
+    padding: 2rem 0;
+    font-size: 2rem;
+    color:rgb(9, 59, 82);
+}
+
+.conten .conten-productos .productos:hover h3{
+    color: rgb(17, 175, 25);
+}
+
+.conten .conten-productos .productos .precio{
+    font-size: 2.3rem;
+    color:rgb(9, 59, 82);
 }
