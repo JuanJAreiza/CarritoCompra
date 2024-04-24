@@ -9,45 +9,54 @@
 
     <!-- link de font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    
-    <!-- defer es para que el script se ejecute cuando haya terminado
-    de cargar todo el HTML -->
-    <script src="js/main.js" defer></script>
 
 </head>
 <body>
     
     <header>
 
-        <div class="logo">
-            <img src="imgs/logo.png" alt="" width="40rem">
-            <span>Hotel Medellin</span>
-        </div>
+        <div class="nav conten">
 
-
-        <div class="carrito">
-            <div class="header-carrito">
-                <h2>Tu carrito</h2>
+            <div class="logo">
+                <img src="imgs/logo.png" alt="" width="40rem">
+                <h2>Hotel Medellin</h2>
             </div>
-    
-            <div class="carrito-items">
-                <div class="carrito-item">
-                    <img src="imgs/cart.png" alt="Carro de compras" width="40rem">
-                    <div class="carrito-item-detalles">
-                        <span class="carrito-item-titulo">Toalla</span>
-                        <div class="selector-cantidad">
-                            <i class="fa-solid fa-minus restar-cantidad"></i>
-                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
-                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+
+            <!-- Inicio de la estructura del carrito de compras -->
+            <i class="fa-solid fa-cart-shopping" id="icono-carro"></i>
+
+            <div class="carro">
+                <h2 class="carro-titulo">Tu Carrito</h2>
+
+                <!-- Contenido del carro -->
+                <div class="carro-contenido">
+                    <div class="carro-box">
+                        <img src="imgs/agua.png" alt="Producto agregado" class="carro-img">
+                        <div class="detalle-box">
+                            <div class="carro-producto-titulo">Agua</div>
+                            <div class="carro-precio">$2.900</div>
+                            <input type="number" value="1" class="carro-cantidad">
                         </div>
-                        <span class="carrito-item-precio">$9.900</span>
-                    </div>
-                    <span class="btn-eliminar"></span>
-                    <i class="fa-solid fa-trash"></i>
-                </div>
-            </div>
-        </div>
 
+                        <!-- Eliminar del carro -->
+                        <i class="fa-solid fa-trash carro-eliminar"></i>
+                        
+                    </div>
+                </div>
+
+                <!-- Total del carro -->
+                <div class="total">
+                    <div class="total-titulo">Total</div>
+                    <div class="total-precio">$0</div>
+                </div>
+                <!-- Botón de comprar/Wpp -->
+                <button class="btn-wpp">Comprar</button>
+                <!-- Cerrar carro -->
+                <i class="fa-solid fa-x" id="cerrar-carro"></i>
+
+            </div>
+
+        </div>
 
     </header>
 
@@ -128,12 +137,12 @@
                 <div class="precio">$ 65.000</div>
                 <button class="boton-item">Agregar</button>
             </div>
-
-
         </div>
-
     </div>
 
+
+
+    <script src="js/main.js"></script>
 
 </body>
 </html>
