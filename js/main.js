@@ -1,12 +1,17 @@
 // Carro
-let carroIcono = document.querySelector('#icono-carro')
-let carro = document.querySelector('.carro')
-let cerrarCarro = document.querySelector('#cerrar-carro')
+let carroIcono = document.querySelector("#icono-carro");
+let carro = document.querySelector(".carro");
+let cerrarCarro = document.querySelector("#cerrar-carro");
 
+
+//Abrir carro
 carroIcono.onclick = () => {
-    carro.classList.add("active");
+    console.log("Clic en icono");
+    carro.classList.add("activo");
 };
 
+
+//Cerrar carro
 cerrarCarro.onclick = () => {
-    carro.classList.remove("active");
+    carro.classList.remove("activo");
 };
