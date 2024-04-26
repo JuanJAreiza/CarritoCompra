@@ -16,7 +16,7 @@ En este taller se creó una página a forma de galería de productos para que un
 
 - Juan Andrés Gaviria
 - Juan José Areiza Orrego
-- David García Sánch
+- David García Sánchez
 
 ## Productos de la Página
 
