@@ -2,8 +2,9 @@
 
 En este taller se creó una página a forma de galería de productos para que un usuario pueda elegir si agregar o eliminar elementos de un carrito de productos y finalmente recibir un mensaje vía Whatsapp a forma de recibo dando la cantidad a pagar en efectivo.
 
-/
+
 <img src="https://affinity.help/designer2/shared/selecting_objects.png">
+
 ## Links de recursos
 
 - [Canva](https://www.canva.com/design/DAGDfCVAXgM/h-6lVrXEph347p8fpPMO9Q/edit?utm_content=DAGDfCVAXgM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
