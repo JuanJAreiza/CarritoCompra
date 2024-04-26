@@ -7,6 +7,7 @@ En este taller se creó una página a forma de galería de productos para que un
 - [Canva](https://www.canva.com/design/DAGDfCVAXgM/h-6lVrXEph347p8fpPMO9Q/edit?utm_content=DAGDfCVAXgM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - [Figma](https://www.figma.com/file/22IMtZQYtQGpOb3XTte7Qw/Dise%C3%B1o-Adaptable?type=design&node-id=22%3A3&mode=design&t=XtuQnOhyOsotGA74-1)
 - [GithubPages](https://juanjareiza.github.io/)
+- [Iconos](https://iconify.design/)
   
 ## Integrantes
 
